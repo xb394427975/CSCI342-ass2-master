@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id = "@+id/menu_edit_clipping"
+          android:icon = "@android:drawable/ic_menu_edit"
+          android:title = "Edit clipping"
+          app:showAsAction="ifRoom"
+          android:showAsAction="ifRoom"
+        />
+    <item android:id = "@+id/menu_delete_clipping"
+          android:icon = "@android:drawable/ic_menu_delete"
+          android:title = "Delete clipping"
+          app:showAsAction="ifRoom"
+          android:showAsAction="ifRoom"
+        />
+    <item android:id = "@+id/menu_share_clipping"
+          android:icon = "@android:drawable/ic_menu_share"
+          android:title = "Share clipping"
+          app:showAsAction="ifRoom"
+          android:showAsAction="ifRoom"
+        />
+</menu>
